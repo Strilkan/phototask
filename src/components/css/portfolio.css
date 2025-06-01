@@ -1,0 +1,47 @@
+.portfolio-container {
+  padding: 1.5rem;
+  color: #1e3a8a; /* Tailwind blue-800 */
+}
+
+.category-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.category-button {
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  background-color: #fbcfe8; /* pink-200 */
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.category-button.active {
+  background-color: white;
+  color: black;
+}
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.portfolio-image {
+  width: auto;
+  max-width: 32%;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  object-fit: cover;
+}
+
+.portfolio-image:hover {
+  transform: scale(1.05);
+}

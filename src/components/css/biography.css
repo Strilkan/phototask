@@ -1,0 +1,35 @@
+.biography-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 2rem;
+  background: transparent;
+  color: #fbcfe8; /* Tailwind pink-200 */
+}
+
+.biography-heading {
+  font-size: 1.875rem; /* text-3xl */
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.biography-text {
+  text-align: left;
+  color: black;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  font-size: 1.125rem; /* text-lg */
+  line-height: 1.75rem; /* leading-relaxed */
+}
+
+.biography-text p {
+  margin-bottom: 1rem;
+}
+
+.biography-image {
+  width: 20rem;
+  height: auto;
+  border-radius: 1rem; /* rounded-2xl */
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  opacity: 0.9;
+}

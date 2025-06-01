@@ -1,0 +1,32 @@
+/* Loader.css */
+.loader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fbcfe8; /* pink-200 */
+  z-index: 50;
+  flex-direction: column;
+}
+
+.loader-image {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 9999px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.loader-text {
+  position: fixed;
+  bottom: 5rem;
+  width: 100%;
+  text-align: center;
+  z-index: 50;
+  font-family: "Kaushan Script", cursive;
+  font-size: 1.875rem; /* text-3xl */
+  color: #1e3a8a; /* blue */
+}
